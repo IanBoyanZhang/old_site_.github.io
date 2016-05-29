@@ -1,5 +1,6 @@
 /* TODO: use less */
 .fullscreen-bg {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -15,6 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    z-index:0;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -29,4 +31,74 @@
     width: 300%;
     left: -100%;
   }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+
+/* Colors */
+.white {
+  color: white !important;
+}
+
+.blue {
+  color: blue !important;
+}
+
+/* Position */
+.alignCenter{
+  align-items: center !important;
+}
+
+.center{
+  display: block;
+  text-align:center;
+  justify-content: center;;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Sub position */
+#wrap {
+  width:359px;
+  height:533px;
+
+  margin-left: auto;
+  margin-right：auto;
+
+  position:absolute; z-index:15; left:40%; top:85px;
+}
+
+/*#wrap .wrap_con {
+  display: none;
+  background:url(images/landing_page/wrap.png) no-repeat left top;
+  position:absolute; z-index:16; left:0; top:0;
+  width:359px;
+  height:533px;
+}*/
+/*#wrap .wrap_con div { width:179px; height:174px; display:block; }
+#wrap .wrap_con div a { font-size:14px; text-align:center; color:#fff; height:50px; display:block; text-decoration:none; }
+#wrap .wrap_con div a:hover { color:#a7aeba; }*/
+
+#logo_wrap {
+  display:none;
+
+  position:relative; z-index:17; left:10px; top:10px;
+  /*width:100px;*/
+  /*height:100px;*/
 }
