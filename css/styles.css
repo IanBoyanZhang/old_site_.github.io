@@ -106,13 +106,11 @@
 #wrap .wrap_con div a:hover { color:#a7aeba; }*/
 
 #logo_wrap {
-  /*display:none;*/
-
   opacity: 0.4;
   filter: alpha(opacity=50);
   position:relative; z-index:17; left:10px; top:10px;
-  /*width:100px;*/
-  /*height:100px;*/
+  width:100px;
+  height:100px;
 }
 
 
