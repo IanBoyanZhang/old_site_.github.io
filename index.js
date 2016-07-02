@@ -4,6 +4,7 @@ var IMAGE_SRC = new Array();
 var viewPortWidth = $(window).width();
 var viewPortHeight = $(window).height();
 
+// document.Ready
 $(document).ready(function(){
 
   // jQuery(window).resize(function(){
@@ -14,22 +15,14 @@ $(document).ready(function(){
 
 var opening_effect = function(next) {
   $('#logo_wrap').hide();
+  $('#cycler').hide();
   $('#video_bg').bind('ended', function() {
     $("#video_wrap").fadeOut(4000, next);
   });
 };
 
-var start_slideshow = function(next) {
-
-};
-
 var start_app = function() {
   // calculate border
-
-  var calc_moving_dist = function() {
-    var etop = $('')
-  };
-
 
   $('#logo_wrap').fadeIn('fast', function() {
     var etop = $(this).offset().top;
@@ -44,6 +37,7 @@ var start_app = function() {
       left: '+=' + move_left + 'px'
     }, 1000);
   });
+
 };
 
 // var scene = new THREE.Scene();
