@@ -10,19 +10,20 @@ $(document).ready(function(){
   // jQuery(window).resize(function(){
   //   resizeWin();
   // });
-  opening_effect(start_app);
+  opening_effect(layout_effect);
 });
 
 var opening_effect = function(next) {
   $('#logo_wrap').hide();
   $('#cycler').hide();
   $('#main_background').hide();
+  $('.content_menu_wrap').hide();
   $('#video_bg').bind('ended', function() {
     $("#video_wrap").fadeOut(4000, next);
   });
 };
 
-var start_app = function() {
+var layout_effect = function() {
   // calculate border
 
   $('#logo_wrap').fadeIn('fast', function() {
@@ -39,9 +40,17 @@ var start_app = function() {
     }, 1000);
 
     $('#main_background').show();
+    $('.content_menu_wrap').show();
+
+    start_app();
   });
 
 };
+
+// Actual app execution
+function start_app() {
+
+}
 
 // var scene = new THREE.Scene();
 
