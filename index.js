@@ -16,6 +16,7 @@ $(document).ready(function(){
 var opening_effect = function(next) {
   $('#logo_wrap').hide();
   $('#cycler').hide();
+  $('#main_background').hide();
   $('#video_bg').bind('ended', function() {
     $("#video_wrap").fadeOut(4000, next);
   });
@@ -36,6 +37,8 @@ var start_app = function() {
       top: '+=' + move_top + 'px',
       left: '+=' + move_left + 'px'
     }, 1000);
+
+    $('#main_background').show();
   });
 
 };

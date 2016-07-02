@@ -113,7 +113,10 @@
   height:100px;
 }
 
-/* slideshow */
+/* background */
+#main_background {
+  opacity: 0.3;
+}
 
 /* three js experiments */
 
