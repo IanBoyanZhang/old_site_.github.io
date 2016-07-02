@@ -10,18 +10,21 @@
   <!-- <link rel="stylesheet" href="css/styles.css?v=1.0"> -->
   <link rel="stylesheet" href="css/styles.css">
   <!-- <script type="application/javascript" src="js/jquery-1.9.1.min.js"></script> -->
-  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/preload/jquery.preload.min.js"></script>
-  <script type="text/javascript" src=""></script>
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/toxiclibs.js"></script>
+  <script src="js/three.min.js"></script>
 </head>
 
 <body>
 
-<div class="center">
-  <img id="logo_wrap" class="vertical" src="images/landing_page/logo.png"/>
+<script type="text/javascript" src="index.js"></script>
 
+
+<!-- TODO: remove player bar -->
+<div id="video_wrap" class="center">
+  <img id="logo_wrap" class="vertical" src="images/landing_page/logo.png"/>
   <div class="fullscreen-bg">
-    <video src="background.mp4" autoplay loop class="fullscreen-bg__video">
+    <video id="video_bg" src="background.mp4" autoplay controls class="fullscreen-bg__video" **preload**>
       Sorry, your browser doesn't support embedded videos,
       but don't worry, you can <a href="background.mp4">download it</a>
       and watch it with your favorite video player!
@@ -29,7 +32,7 @@
   </div>
 </div>
 
-  <div id="wrap">
+<div id="wrap">
 
 <!--   <div class="wrap_con">
     <div style="margin-top:225px;">
@@ -56,7 +59,7 @@
       </table>
     </div>
   </div> -->
-  </div>
+</div>
 <div class="overlay">
 </div>
 
