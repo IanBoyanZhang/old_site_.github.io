@@ -29,7 +29,7 @@ var layout_effect = function() {
   $('#logo_wrap').fadeIn('fast', function() {
     var etop = $(this).offset().top;
     var eleft = $(this).offset().left;
-    var t_b = 150;
+    var t_b = 200;
     var l_b = 150;
     var move_top = viewPortHeight - etop - t_b;
     var move_left = viewPortWidth - eleft - l_b;
