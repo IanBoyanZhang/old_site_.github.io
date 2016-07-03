@@ -158,12 +158,16 @@ background:url(../images/menu/bg_white_1x1_85.png) repeat left top; width:100%; 
   font-size: 20px;*/
   font-family: 'Old Standard TT'; font-weight: 700;
   font-size: 20px;
+  color: black;
 }
-.menu a.btn_main_menu {
-  font-size:11px; line-height:20px;
- /* font-family: 'Old Standard TT', serif;
+
+.btn_main_menu a {
+  height:20px; margin-bottom:15px;
+/*  font-family: 'Old Standard TT', serif;
   font-size: 20px;*/
-  font-family: 'Old Standard TT'; font-weight: 700;
+  font-family: 'Old Standard TT', serif; font-weight: 400;
+  font-size: 20px;
+  color: black;
 }
 
 /* three js experiments */
