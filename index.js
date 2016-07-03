@@ -39,8 +39,8 @@ var layout_effect = function() {
       left: '+=' + move_left + 'px'
     }, 1000);
 
-    $('#main_background').show();
-    $('.content_menu_wrap').show();
+    $('#main_background').fadeIn(1000, function() {});
+    $('.content_menu_wrap').fadeIn(1000, function() {});
 
     start_app();
   });
