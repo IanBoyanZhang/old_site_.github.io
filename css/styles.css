@@ -148,7 +148,8 @@ body {
 /* background */
 #main_background {
   background-image: url("../images/main/main_bk.jpg");
-  opacity: 0.7;
+  /*opacity: 0.7;*/
+  opacity: 1.0;
 }
 
 /* menu */
