@@ -168,6 +168,7 @@ background:url(../images/menu/bg_white_1x1_85.png) repeat left top; width:100%; 
   font-family: 'Old Standard TT', serif; font-weight: 400;
   font-size: 20px;
   color: black;
+  text-decoration: none;
 }
 
 /* three js experiments */
