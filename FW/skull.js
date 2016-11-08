@@ -56,10 +56,13 @@
     };
   }());
 
-  // unique id
-  var View = Skull.View = function() {
-      this.id = _.uniqueId('model');
+  // Each instance
+  var View = Skull.View = function(options) {
+      this.id = _.uniqueId('view');
+      _.extend(this, options);
   };
+
+  _.extend(View.prototype, EventManager);
 
   // All typess of method
   var Model = Skull.Model = function() {
@@ -80,12 +83,19 @@
     obj.get = function() {
       return this.attributes[attrName];
     };
-    obj.toJSON = function() {};
+    obj.toJSON = function() {
+      return _.clone(this.attributes);
+    };
 
     // helper function announce changes to the Model
     // and passes the new data
-    obj.change = function() {};
+    obj.change = function() {
+      return this.trigger(this.id + 'update', attrs);
+    };
+
   }(Model.prototype));
+
+  _.extend(Model.prototype, EventManager);
 
   var Controller = Skull.Controller = (function() {
     return {
