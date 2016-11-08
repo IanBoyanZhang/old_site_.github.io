@@ -5,7 +5,7 @@
  */
 (function(window) {
   'use strict';
-
+  var _ = window._;
   // Framework
   var Skull = window.Skull = {};
 
@@ -43,7 +43,21 @@
           delete context._events[evt];
         }
       },
-      trigger: function(events, args) {}
-      };
-    }());
+
+      // args: []
+      trigger: function(evt, args) {
+        if(!Object.hasOwnProperty.call(this._events, evt)) { return; }
+
+        // Cycle through the queue
+        _.each(this._events[evt], function(info) {
+          info.call(this, args);
+        }, this);
+      }
+    };
+  }());
+
+  var View = Skull.View = (function() {
+    return {
+    };
+  }());
 }(window));
