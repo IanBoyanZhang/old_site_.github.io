@@ -2,6 +2,8 @@
  * First iteration
  * Events: [][]
  * TODO: encode all events into one queue
+ *
+ * Component style inheritance
  */
 (function(window) {
   'use strict';
@@ -65,14 +67,16 @@
   _.extend(View.prototype, EventManager);
 
   // All typess of method
-  var Model = Skull.Model = function() {
+  // Mixin
+  var Model = Skull.Model = function(attributes) {
       this.id = _.uniqueId('model');
       this.attributes = attributes || {};
+//      this.attributes = Array.prototype.slice.call(arguments);
   };
 
   // Prototype definition
   (function(obj) {
-    obj.set = function() {
+    obj.set = function(attrs) {
       if (_.isObject(attrs)) {
         _.extend(this.attributes, attrs);
         this.change(this.attributes);
@@ -89,7 +93,7 @@
 
     // helper function announce changes to the Model
     // and passes the new data
-    obj.change = function() {
+    obj.change = function(attrs) {
       return this.trigger(this.id + 'update', attrs);
     };
 
