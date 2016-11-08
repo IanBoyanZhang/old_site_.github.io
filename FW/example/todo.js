@@ -9,7 +9,7 @@ var todo1 = new Cranium.Model({
 console.log("First todo title - nothing set: " + todo1.get('title'));
 todo1.set({title: "Do something"});
 console.log("Its changed now: " + todo1.get('title'));
-''
+
 // View instance
 var todoView = new Cranium.View({
   // DOM element selector

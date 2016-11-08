@@ -5,6 +5,7 @@
  */
 (function(window) {
   'use strict';
+  window.$ = window.jquery || document.querySelectorAll.bind(document);
   var _ = window._;
   // Framework
   var Skull = window.Skull = {};
@@ -26,7 +27,6 @@
         }
         // Encoding event name
         context._eventNumber = context.events[evt].push(callback) - 1;
-
         // method1
         // return {
         //   remove: function() {
@@ -97,10 +97,11 @@
 
   _.extend(Model.prototype, EventManager);
 
-  var Controller = Skull.Controller = (function() {
-    return {
-    
-    };
-  }());
+  var Controller = Skull.Controller = function(options) { 
+    // Similar to View extension
+    this.id = _.uniqueId('controller');
+    _.extend(this, options);
+
+  };
 
 }(window));
