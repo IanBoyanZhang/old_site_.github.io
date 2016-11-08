@@ -57,29 +57,34 @@
   }());
 
   // unique id
-  var View = Skull.View = (function() {
-    return {
-    };
-  }());
+  var View = Skull.View = function() {
+      this.id = _.uniqueId('model');
+  };
 
   // All typess of method
-  var Model = Skull.Model = (function() {
-    return {
-    
-    };
-  }());
+  var Model = Skull.Model = function() {
+      this.id = _.uniqueId('model');
+      this.attributes = attributes || {};
+  };
 
   // Prototype definition
   (function(obj) {
     obj.set = function() {
-    
+      if (_.isObject(attrs)) {
+        _.extend(this.attributes, attrs);
+        this.change(this.attributes);
+      }
+      return this;
     };
 
-    obj.get = function() {};
+    obj.get = function() {
+      return this.attributes[attrName];
+    };
     obj.toJSON = function() {};
 
     // helper function announce changes to the Model
     // and passes the new data
+    obj.change = function() {};
   }(Model.prototype));
 
   var Controller = Skull.Controller = (function() {
