@@ -56,16 +56,31 @@
     };
   }());
 
+  // unique id
   var View = Skull.View = (function() {
     return {
     };
   }());
 
+  // All typess of method
   var Model = Skull.Model = (function() {
     return {
     
     };
   }());
+
+  // Prototype definition
+  (function(obj) {
+    obj.set = function() {
+    
+    };
+
+    obj.get = function() {};
+    obj.toJSON = function() {};
+
+    // helper function announce changes to the Model
+    // and passes the new data
+  }(Model.prototype));
 
   var Controller = Skull.Controller = (function() {
     return {
