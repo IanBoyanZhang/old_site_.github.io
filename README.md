@@ -2,7 +2,7 @@
 
 [Unknown framework](https://www.shipwire.com/w/jobs/unknown-javascript-framework/)
 [Javascript MVC style Framework in Less than 100 lines](http://www.codeproject.com/Articles/869488/JavaScript-MVC-Style-Framework-in-Less-Than-Lines)
-
+[MVC router example](https://github.com/Nitij/JsMvc/blob/master/Basic%20Version/index.html)
 [In mvc what is the difference between controller and router](http://softwareengineering.stackexchange.com/questions/135495/in-mvc-what-is-the-difference-between-controller-and-router)
 
 Routes and Controllers
@@ -21,7 +21,9 @@ to the template of the view
 [How to use underscore as a template engine](http://stackoverflow.com/questions/4778881/how-to-use-underscore-js-as-a-template-engine)
 
 <%  %> - to execute some code
+
 <%= %> - to print some value in template
+
 <%- %> - to print some values HTML escaped
 
 Compositions and 
