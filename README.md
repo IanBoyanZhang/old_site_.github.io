@@ -16,6 +16,14 @@ to the template of the view
 
 ## FW
 
+[Cranium.js](https://gist.github.com/addyosmani/3769967)
+
+[How to use underscore as a template engine](http://stackoverflow.com/questions/4778881/how-to-use-underscore-js-as-a-template-engine)
+
+<%  %> - to execute some code
+<%= %> - to print some value in template
+<%- %> - to print some values HTML escaped
+
 Compositions and 
 
 1. Events Manager
