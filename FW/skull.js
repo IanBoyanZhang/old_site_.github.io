@@ -46,4 +46,4 @@
       trigger: function(events, args) {}
       };
     }());
-}({}));
+}(window));
