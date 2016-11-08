@@ -60,4 +60,17 @@
     return {
     };
   }());
+
+  var Model = Skull.Model = (function() {
+    return {
+    
+    };
+  }());
+
+  var Controller = Skull.Controller = (function() {
+    return {
+    
+    };
+  }());
+
 }(window));
