@@ -49,7 +49,7 @@ var layout_effect = function() {
 
 // Actual app execution
 function start_app() {
-
+  $('.menu_content').load('templates/menu.html');
 }
 
 // var scene = new THREE.Scene();
