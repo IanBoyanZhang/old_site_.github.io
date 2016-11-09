@@ -15,5 +15,5 @@ jQuery(window).load(function() {
 });
 
 $(function() {
-  $('.menu_content').load('templates/header.html');
+  $('.menu_content').load('templates/menu.html');
 });
