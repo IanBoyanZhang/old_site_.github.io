@@ -17,6 +17,6 @@
 // document.getElementById('header').innerHTML = 'It is just a header';
 
 $(function() {
-  $('#header').load("templates/header.html");
+  $('.menu_content').load("templates/header.html");
   console.log('here');
 });
