@@ -7,13 +7,10 @@ $(document).ready(function(){
   // jQuery(window).resize(function(){
   //   resizeWin();
   // });
-
+  // load menu
+  $('.menu_content').load('templates/menu.html');
 });
 
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
-});
-
-$(function() {
-  $('.menu_content').load('templates/menu.html');
 });
