@@ -18,5 +18,4 @@
 
 $(function() {
   $('.menu_content').load("templates/header.html");
-  console.log('here');
 });
