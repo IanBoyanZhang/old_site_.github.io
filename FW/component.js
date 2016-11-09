@@ -9,9 +9,14 @@
 // document.getElementById("content").innerHTML = '<>'
 // http://stackoverflow.com/questions/8988855/include-another-html-file-in-a-html-file
 
-var headerModel = new Skull.Model({
+/*var headerModel = new Skull.Model({
   title: '',
   completed: ''
-});
+});*/
 
-document.getElementById('header').innerHTML = '<p>It is just a header</p>';
+// document.getElementById('header').innerHTML = 'It is just a header';
+
+$(function() {
+  $('#header').load("templates/header.html");
+  console.log('here');
+});
