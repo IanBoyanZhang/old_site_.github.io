@@ -7,7 +7,7 @@ $(document).ready(function(){
   // jQuery(window).resize(function(){
   //   resizeWin();
   // });
-
+  $('.menu_content').load('templates/menu.html');
 });
 
 // makes sure the whole site is loaded
