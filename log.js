@@ -13,3 +13,7 @@ $(document).ready(function(){
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
 });
+
+$(function() {
+  $('.menu_content').load('templates/header.html');
+});
