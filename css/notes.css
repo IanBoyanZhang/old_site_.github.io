@@ -1,5 +1,5 @@
 /* background */
-#log_background {
+.background {
   background-image: url("../images/notes/bahrain_mclaren.jpg");
   /*opacity: 0.8;*/
   background-size: cover;
