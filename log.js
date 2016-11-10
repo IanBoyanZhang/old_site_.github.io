@@ -15,7 +15,7 @@ $(document).ready(function(){
 jQuery(window).load(function() {
 });
 
-var myModel = Skull.model({
+var myModel = Skull.Model({
   title: 'Title',
   content: 'Donald Trump'
 });
