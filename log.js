@@ -14,13 +14,3 @@ $(document).ready(function(){
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
 });
-
-var myModel = Skull.Model({
-  title: 'Title',
-  content: 'Donald Trump'
-});
-
-
-var myView = new Skull.View({
-  el: '#content'
-});
