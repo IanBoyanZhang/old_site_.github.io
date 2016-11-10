@@ -26,6 +26,7 @@ to the template of the view
 
 <%- %> - to print some values HTML escaped
 
-Compositions and 
 
-1. Events Manager
+TODO:
+
+Dynamically load template
