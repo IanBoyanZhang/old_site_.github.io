@@ -19,3 +19,8 @@ var myModel = Skull.Model({
   title: 'Title',
   content: 'Donald Trump'
 });
+
+
+var myView = new Skull.View({
+  el: '#content'
+});
