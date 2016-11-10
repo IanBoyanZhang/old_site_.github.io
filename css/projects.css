@@ -1,5 +1,5 @@
 /* background */
-.background {
+#projects_background {
   background-image: url("../images/projects/red_bull.jpg");
   /*opacity: 0.8;*/
   background-size: cover;
