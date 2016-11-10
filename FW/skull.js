@@ -7,7 +7,7 @@
  */
 (function(window) {
   'use strict';
-  window.$ = window.jquery || document.querySelectorAll.bind(document);
+  window.$ = window.jQuery || document.querySelectorAll.bind(document);
   var _ = window._;
   // Framework
   var Skull = window.Skull = {};
