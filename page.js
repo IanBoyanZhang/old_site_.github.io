@@ -8,7 +8,7 @@ $(document).ready(function(){
   //   resizeWin();
   // });
   // load menu
-  $('#menu_template').load('templates/menu.html');
+  $('.menu_content').load('templates/menu.html');
 });
 
 // makes sure the whole site is loaded
