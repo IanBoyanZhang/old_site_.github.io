@@ -3,7 +3,7 @@
   background-image: url("../images/projects/red_bull.jpg");
   /*opacity: 0.8;*/
   background-size: cover;
-  opacity: 1.0;
+  opacity: 0.5;
 }
 
 .content {
