@@ -14,3 +14,8 @@ $(document).ready(function(){
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
 });
+
+var myModel = Skull.model({
+  title: 'Title',
+  content: 'Donald Trump'
+});
