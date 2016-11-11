@@ -15,7 +15,7 @@ $(document).ready(function(){
 jQuery(window).load(function() {
 });
 
-window.scroll({
+$(window).scroll({
   top: 2500,
   left: 0,
   behavior: 'smooth'
