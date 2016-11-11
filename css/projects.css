@@ -49,6 +49,8 @@ p a {
 /*Figure caption*/
 .floated_img
 {
+  display: flex;
+  flex-wrap: wrap;
   float: left;
   display: inline-block;
   margin-bottom: 8px;
