@@ -97,6 +97,7 @@ a:hover img {
   transform: scale(1.15);
   border-radius: 2%;
   max-width: 60%;
+  transition: transform .2s ease-in-out;
 }
 
 figure {
