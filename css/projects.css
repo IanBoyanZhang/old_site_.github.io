@@ -47,3 +47,7 @@ p a {
 
 
 /*Figure caption*/
+.floated_img
+{
+    float: left;
+}
