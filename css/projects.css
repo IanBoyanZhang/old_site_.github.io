@@ -1,4 +1,8 @@
 /* background */
+body {
+  overflow: scroll;
+}
+
 #projects_background {
   background-image: url("../images/projects/red_bull.jpg");
   /*opacity: 0.8;*/
@@ -10,7 +14,6 @@
   /*text-decoration-color: white;*/
   color: white;
   margin-left: 150px;
-  overflow: scroll;
 }
 
 .header {
