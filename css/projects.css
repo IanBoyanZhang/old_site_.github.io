@@ -59,7 +59,7 @@ p a {
     font-size:0; /* Remember to change it back to normal font size if have captions */
     list-style:none;
     /*background-color:#000;*/
-    opacity: 0.5;
+    opacity: 1;
 }
 #rig li {
     display: inline-block;
