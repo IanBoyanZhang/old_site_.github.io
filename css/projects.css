@@ -87,6 +87,7 @@ p a {
     border:none;
     transform:scale(1);
     transition:all 1s;
+    border-radius: 2%;
 }
 
 #rig li:hover .rig-img {
