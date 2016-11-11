@@ -50,4 +50,8 @@ p a {
 .floated_img
 {
   float: left;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
 }
