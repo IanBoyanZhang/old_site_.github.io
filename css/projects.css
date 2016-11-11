@@ -36,4 +36,5 @@ p a {
 
 .gallery_pic {
   border-radius:10%;
+  overflow: auto;
 }
