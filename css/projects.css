@@ -118,7 +118,8 @@ p a {
     bottom: 0;
     right: 0;
     margin: auto;
-    background: #3DC0F1 url(img/link.png) no-repeat center 20%;
+    /*background: #3DC0F1 url(img/link.png) no-repeat center 20%;*/
+    background: #ebf1f3;
     background-size:50px 50px;
     opacity:0;
     filter:alpha(opacity=0);/*For IE6 - IE8*/
