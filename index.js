@@ -10,8 +10,9 @@ $(document).ready(function(){
   // jQuery(window).resize(function(){
   //   resizeWin();
   // });
-  opening_effect(layout_effect);
+  // opening_effect(layout_effect);
   // layout_effect()
+  start_app();
 });
 
 var opening_effect = function(next) {
