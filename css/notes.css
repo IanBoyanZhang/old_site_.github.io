@@ -5,6 +5,7 @@
   background-size: cover;
   /*opacity: 1.0;*/
   opacity: 0.7;
+  brightness: 75%;
 }
 
 .content {
