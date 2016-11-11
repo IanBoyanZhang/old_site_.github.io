@@ -74,7 +74,7 @@ p a {
   margin-right: 0;
 }
 */
-/*@media screen and (min-width: 50em) {
+@media screen and (min-width: 50em) {
   a {
     width: calc(25% - 6px);
   }
@@ -104,12 +104,13 @@ figcaption {
 img {
   border: none;
   max-width: 100%;
+  border-radius: 2%;
   height: auto;
   display: block;
   background: #ccc;
   transition: transform .2s ease-in-out;
 }
-*/
+
 /*.p a {
   display: inline;
   font-size: 13px;
