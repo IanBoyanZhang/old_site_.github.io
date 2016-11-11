@@ -50,3 +50,11 @@ p a {
   flex-wrap: wrap;
   float: left;
 }
+
+@media (max-width: 800px) {
+    #rig li {
+        width:50%;
+    }
+}
+
+.rig-text {font-size:14px;}
