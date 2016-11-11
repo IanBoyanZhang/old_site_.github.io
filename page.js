@@ -14,3 +14,9 @@ $(document).ready(function(){
 // makes sure the whole site is loaded
 jQuery(window).load(function() {
 });
+
+window.scroll({
+  top: 2500,
+  left: 0,
+  behavior: 'smooth'
+});
