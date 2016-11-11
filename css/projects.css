@@ -78,6 +78,13 @@ p a {
     display:block;
     position: relative;
     overflow:hidden;
+
+    padding:16px;
+    border:none;
+    /*color:#555;*/
+    /*background-color:white;*/
+    text-decoration:none;
+    text-align:center;
 }
 
 /* If have the image layer */
@@ -90,6 +97,13 @@ p a {
     transition:all 1s;
     border-radius: 2%;
 }
+
+.rig-cell h3 {
+  font-size:18px;
+  font-family:'Oswald', sans-serif;
+  font-weight:normal;
+}
+
 
 #rig li:hover .rig-img {
     transform:scale(1.05);
