@@ -92,7 +92,7 @@ p a {
   transform: scale(1.15);
 }*/
 
-a:hover img {
+.img {
   transform: scale(1.15);
 }
 
