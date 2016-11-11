@@ -1,10 +1,7 @@
 /* background */
-html body {
-  overflow: scroll;
-}
 
 #projects_background {
-  background-image: url("../images/projects/red_bull.jpg");
+  /*background-image: url("../images/projects/red_bull.jpg");*/
   /*opacity: 0.8;*/
   background-size: cover;
   opacity: 0.5;
