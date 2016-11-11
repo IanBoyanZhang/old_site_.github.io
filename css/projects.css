@@ -33,3 +33,7 @@ p a {
   color: black;
   text-decoration: none;
 }
+
+.gallery_pic {
+  border-radius:10%;
+}
