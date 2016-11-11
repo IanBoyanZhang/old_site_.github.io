@@ -1,4 +1,9 @@
 /* background */
+/* After removing background */
+html body {
+  overflow: scroll;
+}
+
 
 #projects_background {
   /*background-image: url("../images/projects/red_bull.jpg");*/
