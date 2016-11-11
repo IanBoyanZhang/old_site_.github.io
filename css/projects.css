@@ -50,17 +50,17 @@ p a {
   font-family: sans-serif;
 }*/
 
-h3 {
+/*h3 {
   text-align: center;
   font-size: 1.65em;
   margin: 0 0 30px;
-}
+}*/
 
-div {
+/*div {
   font-size: 0;
-}
+}*/
 
-a {
+/*a {
   font-size: 16px;
   display: inline-block;
   margin-bottom: 8px;
@@ -68,12 +68,12 @@ a {
   margin-right: 8px;
   text-decoration: none;
   color: black;
-}
+}*/
 
-a:nth-of-type(2n) {
+/*a:nth-of-type(2n) {
   margin-right: 0;
 }
-
+*/
 @media screen and (min-width: 50em) {
   a {
     width: calc(25% - 6px);
@@ -110,7 +110,7 @@ img {
   transition: transform .2s ease-in-out;
 }
 
-.p a {
+/*.p a {
   display: inline;
   font-size: 13px;
   margin: 0;
@@ -122,4 +122,4 @@ img {
   text-align: center;
   font-size: 13px;
   padding-top: 100px;
-}
+}*/
