@@ -92,7 +92,8 @@ p a {
   transform: scale(1.15);
 }*/
 
-.img {
+a:hover img {
+  display: block;
   transform: scale(1.15);
   border-radius: 2%;
   max-width: 60%;
