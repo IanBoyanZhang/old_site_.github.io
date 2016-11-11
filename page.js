@@ -9,6 +9,7 @@ $(document).ready(function(){
   // });
   // load menu
   $('.menu_content').load('templates/menu.html');
+  $('.carousel_wrapper').load('templates/carousel.html');
 });
 
 // makes sure the whole site is loaded
